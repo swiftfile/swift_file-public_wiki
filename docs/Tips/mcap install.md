@@ -26,12 +26,12 @@ Could not find converter for format ros1
 ```
 
 
-https://github.com/tier4/bag_topic_renamer
+[tier4/bag_topic_renamer: rosbag, convert](https://github.com/tier4/bag_topic_renamer)
 ## using rosbag-convert
 そのままやると、topicに数字が入っているせい(topic名のみの問題)でmcapだと`ros2 bag run <input.bag>`をしたときに失敗する．
 
 - そのまま変換したときのコマンド
-	- `rosbags-convert --src section.bag --dst rosbags-converted-mcap.mcap --dst-storage mcap
+	- `rosbags-convert --src section.bag --dst rosbags-converted-mcap.mcap --dst-storage mcap`
 - 対応策
 	- 数字が入っているトピックは重要ではなかったので、必要なトピックをpubして、それをsubscribeした．
 ```
