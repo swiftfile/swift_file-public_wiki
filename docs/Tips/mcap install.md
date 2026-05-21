@@ -8,7 +8,7 @@
  3. `sudo mv mcap-linux-amd64 /usr/bin/mcap`
 
 ### 参照
-[20240925_ROSConJP2024](https://roscon.jp/2024/presentations/07.pdf)
+[ROSConJP2024:ロボットソフトウェア開発におけるMCAP活用(サイバーエージェント)](https://roscon.jp/2024/presentations/07.pdf)
 
 ## rosbag(1)to mcap変換コマンド
 - mcapコマンドを使う
